@@ -70,8 +70,6 @@
                     position: absolute;
                     right: 0;
                     top: 0;
-                    bottom: 0;
-                    left: 0;
                 }
                 .topnav.responsive a {
                     float: none;
@@ -79,6 +77,11 @@
                     text-align: left;
                 }
             }
+        .linkedin {
+            background: white;
+            color: #2867B2;
+            
+        }
             </style>
 </head>
 <nav>
@@ -87,6 +90,7 @@
     <div class="topnav" id="myTopnav">
         <a href="https://kylemelby.me" class="active">Home</a>
         <a href="https://kylemelby.me/blog">Blog</a>
+        <a href="https://kylemelby.me/links>Links</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
          <i class="fa fa-bars"></i>
         </a>
@@ -95,26 +99,29 @@
 <header>
     <div class="header site-container">
         <h1><b>Kyle Melby</b></h1>
-        <p>Student, Developer, and Designer</p>
+        <p><b>Student, Developer, and Designer</b></p>
     </div>
         </header>
 <body>
     
     <section>
-        <div class = "padding-left:16px">
+        <div class = "body">
     <h1><center>Welcome to my new website!</center></h1>
-    <h2><center>I will be adding my projects, blog, and  my portfolio to this website.</center></h2>
+    <h2><center>Here you will find my projects, my blog, and my portfolio.></h2>
         </div>
     </section>
     <section>
-        <div class = "section2"
+        <div class = "section2">
         <h2><b><center>My Projects</center></b></h2>
         <h3><center>MelTech | 2016-Current</center></h3>
         <h3><center>StudyOne | 2017-Current</center></h3>
         <h3><center>This Site | 2020-Current</center></h3>
     </div>
     </section>
-    <footer><p><b><center>© 2020 Kyle Melby</center></b></p></footer>
+        <section>
+  <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="kyle-melby-865424183"><a class="LI-simple-link" href='https://www.linkedin.com/in/kyle-melby-865424183?trk=profile-badge'>Kyle Melby</a></div>
+        </section>
+        <footer><p><b><center>© 2020 Kyle Melby</center></b></p></footer>
 <script>function myFunction() {
         var x = document.getElementById("myTopnav");
          if (x.className === "topnav") {
@@ -123,6 +130,7 @@
                                                }
                                                }
                                                
-                               </script>                               
+                               </script> 
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         </body>  
 </html>
