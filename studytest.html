@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <title>Create StudyBook</title>
+           
+    <style>
+        
+        .html, body {
+            /*FILL TO EDGES - margin:0;*/
+            padding:0;
+            background-color:#E0E5EC;
+
+            font-family: 'Lexend', sans-serif;
+            font-weight: bold;
+              letter-spacing: -0.5px;
+            text-align: center;
+        }
+
+        .canvas {
+            padding-top: 15px;
+            padding-bottom: 60px;
+            text-align: center;
+            color: #212225;
+            border-radius: 24px;
+            background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+
+        border: 3px #F5F5F5;
+        border-style: solid;
+        }
+        </style>
+<script>
+    function allowDrop(ev) {
+        ev.preventDefault();
+    }
+    function drag(ev) {
+        ev.dataTransfer.setData("text", ev.target.id);
+    }
+    function drop(ev) {
+        ev.preventDefault();
+        var data = ev.dataTransfer.getData("text");
+        ev.target.appendChild(document.getElementById(data));
+    }
+</script>
+</head>
+<body>
+    <h1><b>Create a StudyBook using the Canvas.</b></h1>
+    <div class = "canvas" ondrop="drop(event)"
+        ondragover="allowDrop(event)">
+<h2>To begin, drag a StudyBook Element into the Canvas.</h2>
+    </div>
+
+<img id="drag1" src="https://kylemelby.me/favicon.ico" draggable="true" ondragstart="drag(event)" width="336" height="70">
+</body>
+</html>
