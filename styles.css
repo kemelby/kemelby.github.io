@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Kyle Melby</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../Documents/kemelby.github.io/favicon.ico">
+       <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <meta name="theme-color"
+        content="#00305b"
+        media="(prefers-color-scheme: light)">  
+        <meta name="theme-color"
+        content="#000000"
+        media="(prefers-color-scheme: dark)">  
+        <link rel ="stylesheet" href="/Users/kemelby/Documents/Developer/styles.css" />
+
+</head>
+<nav>
+    <br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <div class="topnav" id="myTopnav">
+        <a href="https://kylemelby.me">Home</a>
+        <a href="https://kemelby.com/about-me" class="active">About Me</a>
+        <a href="https://kemelby.com/links">Links</a>
+                 <a href="https://www.linkedin.com/in/kylemelby">LinkedIn</a>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        </nav>
+        <br>
+<header>
+    <div class="header">
+
+        <h1><b>Kyle Melby</b></h1>
+        <h2><b>Learn More About Me </b></h2>
+    </div>
+        </header>
+<body>
+    <br>
+    <section>
+        <div class = "section1">
+        <h1>&#128172; Allow Me To Introduce Myself</h1>
+        <h3>Hey! I'm Kyle! Welcome to my website. I am a student, developer, and designer. In my space time, I enjoy hanging out with family, biking, and tinkering with new technology.</h3>
+        <br>
+        <br>    
+    </section>
+    <br>
+    <section>
+        <div class = "section1">
+        <h1>&#128640; My Activites!</h1>
+        <h2>Bethel University Rocket Club Member</h2>
+        <h3>September 2022 - Current</h3>
+        <br>  
+        <h2>FIRST Robotics</h2>
+        <h3>Student: September 2018 - May 2022 | Mentor: January 2023 - Current</h3>
+        <h4>Student Leader during the 2022 Season</h4>
+        <br>
+        <h2>Fellowship of Christian Athletes</h2>
+        <h3>October 2020 - June 2022</h3>
+        <h4>Student Leader during the 2021 - 2022 School Year</h4>
+        <br>   
+        <h2>French Horn Player</h2>
+        <h3>June 2015 - June 2019</h3>
+        <br> 
+        <h2>Student Council Representative</h2>
+        <h3>June 2015 - June 2019</h3>
+        <br> 
+    </section>
+    <br>
+    <section>
+        <div class = "section1">
+        <h1>&#128187; My Projects!</h1>
+        <h2>This Website</h2>
+        <h3>2020 - Current</h3>
+        <br>
+        <h2>MelTech</h2>
+        <h3>2016 - Current</h3>
+        <br>
+        <h2>StudyOne</h2>
+        <h3>2017 - Current</h3>
+        <br>
+        <h2>MelWeb</h2>
+        <h3>2015 - 2019</h3>
+        <br>   
+    </section>
+    <br>
+    <footer><p><b>© 2023 Kyle Melby</b></p></footer>
+<script>function myFunction() {
+        var x = document.getElementById("myTopnav");
+         if (x.className === "topnav") {
+             x.className += " responsive";
+                } else { x.className = "topnav";
+                                               }
+                                               }
+                                               
+                               </script> 
+   <br>
+        </body>  
+</html>
